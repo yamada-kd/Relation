@@ -1,5 +1,7 @@
 # Relation
 
+Relation is an option for processing context information
+
 ## glue.py
 Generating model with "Attention", "Linear Attention" or "Relation" or without any of them to process data in GLUE benchmark dataset. GLUE dataset is not provided in the repository.
 The directory "result" includes the benchmark results of each method on GLUE.
