@@ -8,7 +8,7 @@ For both problems (GLUE and (IMDb and Reuters Newswire Classification)), same ar
 2. "Attention", "Linear Attention" or "Relation" layer
 3. Output layer
 
-There are two Python code in the repository. The first one is for GLUE benchmark to evaluate the ability to process sequence data. The second one is for IMDb or Reuters Newswire Classification dataset to evaluate computation time of each method.
+There are two Python codes in the repository. The first one is for GLUE benchmark to evaluate the ability to process sequence data. The second one is for IMDb or Reuters Newswire Classification dataset to evaluate computation time of each method.
 
 ## glue.py
 Generating model with "Attention", "Linear Attention" or "Relation" or without any of them to process data in GLUE benchmark dataset. GLUE dataset is not provided in the repository.
