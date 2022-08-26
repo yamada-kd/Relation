@@ -16,3 +16,6 @@ The directory "result" includes the benchmark results of each method on GLUE.
 
 ## imdbReuters.py
 Calculates computation time of model with "Attention", "Linear Attention" or "Relation" or without any of them for IMDb or Reuters Newswire Classification dataset, provided by TensorFlow.
+
+## wikitext.py and wikitext.sample.txt
+Calculates computation time of model with "Attention", "Linear Attention" or "Relation" or without any of them for WikiText-103 dataset. WikiText-103 includes pairs of a header and sentences in an instance. The task is classification, in which each method classify whether the input sentence belongs to the secondary level of headers (= = [string] = =) or the other level of headers; the secondary level of headers is positive flag (1) and the other level of headers is negative flag (0). The file "wikitext.sample.txt" includes sample instances.
